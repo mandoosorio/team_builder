@@ -5,7 +5,7 @@ class Employee {
         this.id = id;
         this.email = email;
         this.role = role;
-        role = "employee";
+        role = "Employee";
     }
 
     getName() {
@@ -19,6 +19,10 @@ class Employee {
     getEmail() {
         console.log("Email:", this.email);
         return this.email;
+    }
+    getRole() {
+        console.log("Role:", this.role);
+        return "Employee";
     }
 }
 module.exports = Employee;
