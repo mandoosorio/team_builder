@@ -15,7 +15,7 @@ The application will prompt the user for information about the team manager and 
 In order to get started with the application, node.js must be installed and the user will have to run an 'npm install' as well as 'npm install inquirer' in order for the prompts to run. The entirety of this application occurs in the terminal.
 
 ## Usage
-Open up the terminal, run 'npm install', run 'npm install inquirer', run 'npm install axios', and on the command line once all those tools are installed, type 'node index.js'.
+Open up the terminal, run 'npm install', run 'npm install inquirer', run 'npm install axios', and on the command line once all those tools are installed, change directory into the assets folder and run 'node app.js'.
 
 ![Demo Image](team_builder_demo.png)
 ![Profile Image](https://avatars2.githubusercontent.com/u/65792333?v=4/to/img.png)

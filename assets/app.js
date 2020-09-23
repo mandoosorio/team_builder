@@ -15,7 +15,13 @@ const render = require("./lib/htmlRenderer");
 
 const Team = [];
 
-starterQuestions();
+const showBanner = require("node-banner");
+
+(async() => {
+    await showBanner("Team Builder", "", "red");
+    starterQuestions();
+})();
+
 function starterQuestions() {
     inquirer.prompt([
         {
